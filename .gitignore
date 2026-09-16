@@ -1,0 +1,25 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node
+node_modules/
+.pnpm-store/
+
+# Build and local artifacts
+.next/
+dist/
+build/
+coverage/
+.DS_Store
+*.log
+
+# Local exports
+*.zip
+
+# Editor
+.vscode/
+.idea/
